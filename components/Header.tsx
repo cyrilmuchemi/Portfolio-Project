@@ -22,9 +22,9 @@ export default function Header({}: Props) {
                 duration: 1.4
             }}
             className='flex flex-row items-center'>
-            <SocialIcon url="https://linkedin.com/in/cyril-muchemi/" fgColor='green' bgColor='transparent' />
-            <SocialIcon url="https://twitter.com/CyrilMuchemi" fgColor='green' bgColor='transparent' />
-            <SocialIcon url="https://github.com/cyrilmuchemi" fgColor='green' bgColor='transparent' />
+            <SocialIcon url="https://linkedin.com/in/cyril-muchemi/" fgColor='#088F8F' bgColor='transparent' />
+            <SocialIcon url="https://twitter.com/CyrilMuchemi" fgColor='#088F8F' bgColor='transparent' />
+            <SocialIcon url="https://github.com/cyrilmuchemi" fgColor='#088F8F' bgColor='transparent' />
             </motion.div>
             <motion.div 
             initial={{
@@ -41,8 +41,8 @@ export default function Header({}: Props) {
                 duration: 1.4
             }}
             className='flex flex-row cursor-pointer items-center'>
-            <SocialIcon className='cursor-pointer' network='email' fgColor='green' bgColor='transparent' />
-            <p className='uppercase hidden md:inline-flex text-sm font-semibold text-gray'>Get In<b className='text-green-500 ml-1'>Touch</b></p>
+            <SocialIcon className='cursor-pointer' network='email' fgColor='#088F8F' bgColor='transparent' />
+            <p className='uppercase hidden md:inline-flex text-sm font-semibold text-white'>Get In<b className='font-semibold text-cyan-500 ml-1'>Touch</b></p>
             </motion.div>
         </header>
     )
