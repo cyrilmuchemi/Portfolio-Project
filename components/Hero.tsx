@@ -22,7 +22,7 @@ export default function Hero({}: Props ) {
     const options = {
         animationData: computerAnimation,
         loop: true
-      };
+    };
 
     
     const { View } = useLottie(options);
