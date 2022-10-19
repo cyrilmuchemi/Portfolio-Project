@@ -21,11 +21,13 @@ export function Skills ({}: Props) {
       <div className='w-[480px] h-[480px] flex-shrink-0 mb-0 mt-24 pt-10'>
       { View }
       </div>
-      <motion.div>
-        <div className='buttons'>
+      <motion.button
+      whileHover={{scale: 1.1}}
+      whileTap={{ scale: 0.9 }}
+      className='buttons pb-5'
+      >
             Get Resume
-        </div>
-      </motion.div>
+      </motion.button>
       </div>
   );
 }
