@@ -7,4 +7,9 @@
     .HeroButton {
         @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs text-white mt-6 tracking-widest transition-all hover:text-[#088F8F]
     }
+
+    .contactInput {
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] transition-all placeholder-gray-500 text-gray-500
+        focus:border-[#088F8F]/40 focus:text-white
+    }
 }
