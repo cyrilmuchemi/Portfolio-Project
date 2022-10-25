@@ -22,7 +22,10 @@ export default function Projects({}: Props) {
                     viewport={{ once: true }}
                     src='' alt=''/>
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <h4 className='text-4xl font-semibold text-center'>Case Study {index + 1} of {projects.length}: Marketing Agency </h4>
+                        <h4 className='text-4xl font-semibold text-center'>
+                            <span className='underline decoration-[#088F8F]/50'>Case Study {index + 1} of {projects.length}:</span>{" "}
+                             Marketing Agency 
+                        </h4>
                         <p className='text-lg text-center md:text-left'>
                             The quick brown fox jumped over the lazy dog.
                         </p>
@@ -30,7 +33,7 @@ export default function Projects({}: Props) {
                 </motion.div>
             ))}
         </div>
-        <div className='w-full absolute top-[30%] bg-[#088F8F]/100 left-0 h-[500px] -skew-y-12'/>
+        <div className='w-full absolute top-[30%] bg-[#088F8F]/10 left-0 h-[500px] -skew-y-12'/>
       </div>
     );
 }
