@@ -39,6 +39,11 @@ export default function App ({}: Props) {
     </motion.div>
     <div className='px-10 space-y-10 md:px-10'>
         <h4 className='text-white font-semibold text-4xl'>Currently residing in <span className='text-cyan-500'>Nairobi.</span></h4>
+        <p className='text-white text-lg'>
+        Equiped with a record of success in consistently 
+        identifying and providing the technological needs of companies through ingenious innovations. Proficient in Wordpress,
+        writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback.
+    </p>
     </div>
     </div>
   );

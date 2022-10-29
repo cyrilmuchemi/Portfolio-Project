@@ -1,6 +1,7 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 type Props = {}
 
@@ -41,7 +42,9 @@ export default function Header({}: Props) {
                 duration: 1.4
             }}
             className='flex flex-row cursor-pointer items-center'>
+            <Link href='#contact'>
             <SocialIcon className='cursor-pointer' network='email' fgColor='#088F8F' bgColor='transparent' />
+            </Link>
             <p className='uppercase hidden md:inline-flex text-sm font-semibold text-white'>Get In<b className='font-semibold text-cyan-500 ml-1'>Touch</b></p>
             </motion.div>
         </header>
