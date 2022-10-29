@@ -52,7 +52,7 @@ export default function Projects({projects}: Props) {
                             <Link href={project?.linkToBuild}>
                             Link to Build
                             </Link>
-                            <Link href={project?.linkToBuild}>
+                            <Link href={project?.linkToGitHub}>
                             Link to GitHub Repo
                             </Link>
                         </div>
