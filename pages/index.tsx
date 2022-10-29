@@ -32,7 +32,7 @@ const Home = ({projects, skills}: Props) => {
         <About/>
       </section>
       <section id='skills' className='snap-center'>
-        <Skills/>
+        <Skills skills={skills}/>
       </section>
       <section id='projects' className='snap-start'>
         <Projects projects={projects}/>
