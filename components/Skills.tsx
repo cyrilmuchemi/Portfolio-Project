@@ -3,7 +3,6 @@ import phoneAnimation from '../phone.json';
 import { useLottie } from "lottie-react";
 import { motion } from 'framer-motion';
 import { Skill as SkillType } from '../typings';
-import Link from 'next/link';
 
 type Props = {
   skills: SkillType[]
@@ -30,9 +29,7 @@ export function Skills ({skills}: Props) {
       whileTap={{ scale: 0.9 }}
       className='buttons pb-5'
       >
-        <Link href='https://docs.google.com/document/d/10SOc85Hqh8KvXRH6jolGZdQjHRw0ph6LIAQXR7HKWWs/edit?usp=sharing'>
         See Resume
-        </Link>
       </motion.button>
       </div>
   );

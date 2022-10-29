@@ -9,9 +9,8 @@ type Inputs = {
     message: string;
 };
 
-type Props = {}
 
-export default function ContactMe({}: Props) {
+export default function ContactMe() {
 
     const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => {

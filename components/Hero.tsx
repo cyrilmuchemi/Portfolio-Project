@@ -5,9 +5,8 @@ import { useLottie } from "lottie-react";
 import computerAnimation from "../computer.json";
 import Link from "next/link";
 
-type Props = {}
 
-export default function Hero({}: Props ) {
+export default function Hero() {
 
     const [text, count] = useTypewriter({
     words: [ 

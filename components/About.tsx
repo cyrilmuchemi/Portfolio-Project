@@ -3,9 +3,7 @@ import { useLottie } from "lottie-react";
 import developerAnimation from "../myself.json";
 import { motion } from 'framer-motion';
 
-type Props = {}
-
-export default function App ({}: Props) {
+export default function App () {
 
     const options = {
         animationData: developerAnimation,
