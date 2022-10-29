@@ -40,7 +40,8 @@ export default function Projects({projects}: Props) {
                             <img 
                             className='h-8 w-8'
                             key={technology._id} 
-                            src={urlFor(technology.image).url()}/>
+                            src={urlFor(technology.image).url()}
+                            alt='technologies'/>
                         ))}
                         </div>
                         
