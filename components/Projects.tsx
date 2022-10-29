@@ -16,6 +16,7 @@ export default function Projects({projects}: Props) {
         <div className='relative w-full flex overflow-x-scroll pt-12 mt-9 overflow-y-hidden snap-x snap-mandatory z-20'>
             {projects?.map((project, index) => (
                 <motion.div 
+                key={project._id}
                 initial={{ opacity:0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
