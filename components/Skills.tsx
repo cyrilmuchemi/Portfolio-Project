@@ -29,7 +29,7 @@ export function Skills ({skills}: Props) {
       whileTap={{ scale: 0.9 }}
       className='buttons pb-5'
       >
-        See Resume
+      <a href='https://docs.google.com/document/d/10SOc85Hqh8KvXRH6jolGZdQjHRw0ph6LIAQXR7HKWWs/edit?usp=sharing'> See Resume</a>
       </motion.button>
       </div>
   );

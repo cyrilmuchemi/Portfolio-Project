@@ -3,6 +3,7 @@ import Link from 'next/link';
 import * as React from 'react';
 import { urlFor } from '../sanity';
 import { Project } from '../typings';
+import Image from 'next/image'
 
 
 type Props = {
