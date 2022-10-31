@@ -19,9 +19,9 @@ export function Skills ({skills}: Props) {
   return (
     <div className='flex relative flex-col text-center md:text-left max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
       <h4 className='text-white text-2xl tracking-[20px] uppercase absolute top-24'>Skills</h4>
-      <h5 className='text-white absolute top-40 tracking-[3px]'>For a more <span className='text-cyan-500'>detailed</span>  overview, please feel free to check the tools that
+      <h5 className='text-white absolute top-40 tracking-[1.8px] ml-5 mr-5 md:tracking-[3px]'>For a more <span className='text-cyan-500'>detailed</span>  overview, please feel free to check the tools that
       were used on<span className='text-cyan-500'>  a per-project basis</span></h5>
-      <div className='w-[480px] h-[480px] flex-shrink-0 mb-0 mt-24 pt-10'>
+      <div className='md:w-[480px] md:h-[480px] w-[390px] h-[390px] flex-shrink-0 mb-0 mt-24 pt-10'>
       { View }
       </div>
       <motion.button

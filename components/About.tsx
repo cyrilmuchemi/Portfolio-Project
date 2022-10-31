@@ -32,12 +32,12 @@ export default function App () {
     viewport={{
         once: true
     }}
-    className='w-[320px] h-[320px] flex-shrink-0 mt-14 mb-0'>
+    className='md:w-[320px] md:h-[320px] w-[200px] h-[200px] flex-shrink-0 pt-[156px] md:pt-0 mt-14 md:mb-0'>
         { View }
     </motion.div>
-    <div className='px-10 space-y-10 md:px-10'>
-        <h4 className='text-white font-semibold text-4xl'>Currently residing in <span className='text-cyan-500'>Nairobi.</span></h4>
-        <p className='text-white text-lg'>
+    <div className='px-10 mt-24 md:mt-0 md:pt-0 pt-16 space-y-10 md:px-10'>
+        <h4 className='text-white font-semibold text-2xl md:text-4xl'>Currently residing in <span className='text-cyan-500'>Nairobi.</span></h4>
+        <p className='text-white text-base tracking-[1px] md:w-auto w-[340px] md:tracking-normal md:text-lg'>
         Equiped with a record of success in consistently 
         identifying and providing the technological needs of companies through ingenious innovations. Proficient in Wordpress,
         writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback.

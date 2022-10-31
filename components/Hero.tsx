@@ -28,11 +28,11 @@ export default function Hero() {
 
 
     return(
-        <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+        <div className="h-screen flex flex-col sspace-y-8 w-screen items-center justify-center text-center overflow-hidden">
             <BackgroundCircles/>
             <div className="w-[150px] h-[150px]">{View}</div>
             <div className="z-20">
-            <h2 className="text-sm uppercase text-white pb-5 tracking-[15px]">Software Engineer</h2>
+            <h2 className="text-sm uppercase text-white pb-5 tracking-[8px] md:tracking-[15px]">Software Engineer</h2>
             <h1 className="text-3xl lg:text-5xl font-semibold px-10">
                 <span className="text-white">{text}</span>
                 <Cursor cursorColor="#088F8F"/>

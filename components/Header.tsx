@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return(
-        <header className='sticky top-0 flex items-start justify-between max-w-7xl p-5 mx-auto z-20 xl:items-center'>
+        <header className='sticky top-0 flex items-start justify-between md:max-w-7xl p-5 mx-auto z-20 xl:items-center'>
             <motion.div 
             initial={{
                 x:-500,
