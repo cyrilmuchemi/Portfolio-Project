@@ -24,7 +24,7 @@ export default function ContactMe() {
                     I have got just what you need.{" "}
                     <span className='underline decoration-[#088F8F]'>Lets Talk.</span>
                 </h4>
-                <div className='text-white space-y-6'>
+                <div className='text-white pt-6 space-y-6'>
                     <div className='flex items-center space-x-5 justify-center'>
                     <PhoneIcon className='text-[#088F8F] w-7 h-7 animate-pulse'/>
                     <p className='md:text-2xl'>+254742550846</p>
