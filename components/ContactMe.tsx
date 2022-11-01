@@ -20,7 +20,7 @@ export default function ContactMe() {
         <div className='min-h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
             <h3 className='absolute top-24 uppercase tracking-[20px] text-white text-2xl'>Contact</h3>
             <div className='flex md:mt-32 mt-52 flex-col space-y-10'>
-                <h4 className='md:text-3xl w-[400px] md:w-auto text-xl pr-16 pl-16 text-white font-semibold text-center'>
+                <h4 className='md:text-3xl md:pt-7 w-[400px] md:w-auto text-xl pr-16 pl-16 text-white font-semibold text-center'>
                     I have got just what you need.{" "}
                     <span className='underline decoration-[#088F8F]'>Lets Talk.</span>
                 </h4>
