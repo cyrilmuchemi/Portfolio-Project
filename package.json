@@ -20,7 +20,8 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.38.0",
     "react-simple-typewriter": "^4.0.5",
-    "react-social-icons": "^5.15.0"
+    "react-social-icons": "^5.15.0",
+    "vercel": "^19.1.2"
   },
   "devDependencies": {
     "@sanity/cli": "^2.35.0",
